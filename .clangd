@@ -1,0 +1,17 @@
+Diagnostics:
+  MissingIncludes: None
+  UnusedIncludes: None
+Index:
+  StandardLibrary: Yes
+  Background: Build
+Completion:
+  AllScopes: Yes
+InlayHints:
+  Designators: No
+  Enabled: Yes
+  ParameterNames: No
+  DeducedTypes: Yes
+  BlockEnd: No
+  TypeNameLimit: 0
+Hover:
+  ShowAKA: Yes
