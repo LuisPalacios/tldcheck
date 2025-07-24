@@ -73,7 +73,7 @@ def create_header_file():
         outfile.write("// The TLD_LIST excludes \"test\" TLDs found in the full list.\n");
         outfile.write("// Entries converted already to UTF-8 from Punycode.\n");
         outfile.write(f"// Custom TLDs added: {', '.join(CUSTOM_TLDS)}\n");
-        outfile.write("// Updated 2025-01-23 07:07\n");
+        outfile.write("// Updated 2025-01-22 08:07\n");
         outfile.write("\n");
         outfile.write("// If you need to update the TLD list, use this repository:\n");
         outfile.write("// https://github.com/LuisPalacios/tldcheck\n");
