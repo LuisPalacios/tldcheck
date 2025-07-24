@@ -38,9 +38,13 @@ pip install requests idna
 python gettld.py
 ```
 
+> If you only wanted the header it's been generated here: **`./src/iana-tlds.h`**
+
+---
+
 **C++ Build Instructions:**
 
-Tested on Windows, macOS and Linux with with **Clang 17**, **CMake** 3.10 or higher and **Ninja** build system (recommended), so you need to install LLVM@17, cmake and ninja in Windows, or macOS or Linux.
+If you want to test that header, here is a small C++ program. It's been tested on Windows, macOS and Linux with with **Clang 17**, **CMake** 3.10 or higher and **Ninja** build system (recommended), so you need to install LLVM@17, cmake and ninja in Windows, or macOS or Linux.
 
 ```bash
 # Windows/Linux/macOS: Prepare and Build
